@@ -1,0 +1,113 @@
+root {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Heebo;
+}
+
+.nation-image {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+
+.nation-p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.team-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.fixture {
+    align-items: center;
+}
+
+.fixture-team {
+    align-items: center;
+}
+
+.fixture p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.elapsed {
+    align-items: flex-end;
+
+}
+.elapsed p {
+    margin-bottom: 0;
+}
+
+p.team-name-home {
+    flex-grow: 2;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+p.team-name-away {
+    flex-grow: 2;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+p.team-goals {
+    margin-bottom: 0;
+}
+
+.faq-section .mb-0 > a {
+    display: block;
+    position: relative;
+}
+
+.faq-section .mb-0 > a:after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 0;
+    font-weight: 600;
+}
+
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f068";
+    /*font-family: "Font Awesome 5 Free";*/
+    font-weight: 600;
+}
+
+.row-right,.row-left {
+    padding : 10px 5px;
+}
+
+.home-goal,.home-yellow,.home-red,.away-goal,.away-yellow,.away-red,.home-missed-penalty,.away-missed-penalty,.home-sub, .away-sub, .home-own-goal, .away-own-goal{
+    width: 25px;
+    height: 25px;
+}
+
+.home-goal,.home-yellow,.home-red,.home-missed-penalty,.home-sub, .home-own-goal {
+    margin-right: 20px;
+}
+.away-goal,.away-yellow,.away-red,.away-missed-penalty,.away-sub, .away-own-goal {
+    margin-left: 20px;
+}
+
+.home-event p,.away-event p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.home-event p {
+    margin-right: 20px;
+}
+
+.away-event p {
+    margin-left: 20px;
+}
+
+
